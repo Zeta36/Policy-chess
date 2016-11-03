@@ -26,8 +26,7 @@ maximize the likelihood of the human move a selected in state.
 
 ## Preparing the Data sets
 
-We traing the 3-layer policy network using any set of chess games stored as PGN files. To prepare the traing and the validation data set,
-we just need to download many PGN file (more data means more accuracy after the training) and put them in the datasets folder (there is in the repository some pgn examples to use).
+We train the 3-layer policy network using any set of chess games stored as PGN files. To prepare the training and the validation data set, we just need to download many PGN file (more data means more accuracy after the training) and put them in the datasets folder (there is in the repository some pgn examples to use).
 
 After that, we run in the console:
 ```bash
