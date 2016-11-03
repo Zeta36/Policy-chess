@@ -1,6 +1,6 @@
-# A Policy Network in Tensorflow for chess moves classifier
+# A Policy Network in Tensorflow to classify chess moves
 
-This is a TensorFlow implementation of a supervised learning in a policy network for chess moves classifier.
+This is a TensorFlow implementation of a supervised learning in a policy network for chess moves classification.
 
 <table style="border-collapse: collapse">
 <tr>
