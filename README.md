@@ -6,7 +6,7 @@ This is a TensorFlow implementation of a supervised learning in a policy network
 <tr>
 <td>
 <p>
-This work is inspired in the SL policy network used by <b>Google DeepMind</b> in the program AlphaGo [(AlphaGo Nature Paper)](https://storage.googleapis.com/deepmind-media/alphago/AlphaGoNaturePaper.pdf).
+This work is inspired in the SL policy network used by <b>Google DeepMind</b> in the program AlphaGo [AlphaGo Nature Paper](https://storage.googleapis.com/deepmind-media/alphago/AlphaGoNaturePaper.pdf).
 </p>
 <p>
 The network models the probability for every legal chess move given a chess board based only in the raw state of the game.
@@ -35,8 +35,7 @@ python pgn-to-txt.py
 ```
 
 In this way, the PGN files will be reformated in the proper way, and chuncked in a tuple of (board state, human move).
-We the pgn-to-txt.py script finish, go into the datasets folder and copy almost all the "*.txt" files generated into a new folders called "data_train",
-and some text files into another folder called "data_validation".
+We the pgn-to-txt.py script finish, go into the datasets folder and copy almost all the "*.txt" files generated into a new folders called "data_train", and some text files into another folder called "data_validation".
 
 Finally, you have to run 
 ```bash
@@ -63,7 +62,7 @@ python play.py
 ```
 
 The machine moves will be generate by the policy network, and the human moves in the game will be asked to you to be type in the keyboard.
-In order to move, you have to know the san <b>Algebraic notation<b> (https://en.wikipedia.org/wiki/Algebraic_notation_(chess)).
+In order to move, you have to know the san <b>Algebraic notation</b> (https://en.wikipedia.org/wiki/Algebraic_notation_(chess)).
 
 The game board is printed in ASCII, but you can use any online chess board configuration (like this http://www.apronus.com/chess/wbeditor.php) to mimic the movements so you can see clearly the game. 
 
